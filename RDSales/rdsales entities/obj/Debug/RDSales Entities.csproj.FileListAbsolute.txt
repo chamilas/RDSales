@@ -1,0 +1,30 @@
+D:\LINK PROJECTS\Source\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.dll
+D:\LINK PROJECTS\Source\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.pdb
+D:\LINK PROJECTS\Source\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.dll
+D:\LINK PROJECTS\Source\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.pdb
+D:\LINK PROJECTS\Source\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.csprojResolveAssemblyReference.cache
+C:\Users\CHAMILA\Desktop\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.dll
+C:\Users\CHAMILA\Desktop\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.pdb
+C:\Users\CHAMILA\Desktop\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.dll
+C:\Users\CHAMILA\Desktop\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.pdb
+C:\Users\CHAMILA\Desktop\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.csprojResolveAssemblyReference.cache
+D:\ERP\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.dll
+D:\ERP\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.pdb
+D:\ERP\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.dll
+D:\ERP\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.pdb
+D:\ERP\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.csprojResolveAssemblyReference.cache
+C:\Users\CHAMILA\Dropbox\LinkSource\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.dll
+C:\Users\CHAMILA\Dropbox\LinkSource\RDSales Management System\RDSales Entities\bin\Debug\RDSales Entities.pdb
+C:\Users\CHAMILA\Dropbox\LinkSource\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.csprojResolveAssemblyReference.cache
+C:\Users\CHAMILA\Dropbox\LinkSource\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.dll
+C:\Users\CHAMILA\Dropbox\LinkSource\RDSales Management System\RDSales Entities\obj\Debug\RDSales Entities.pdb
+C:\Users\Thilina\Desktop\RDSales\RDSales Entities\bin\Debug\RDSales Entities.dll
+C:\Users\Thilina\Desktop\RDSales\RDSales Entities\bin\Debug\RDSales Entities.pdb
+C:\Users\Thilina\Desktop\RDSales\RDSales Entities\obj\Debug\RDSales Entities.csprojResolveAssemblyReference.cache
+C:\Users\Thilina\Desktop\RDSales\RDSales Entities\obj\Debug\RDSales Entities.dll
+C:\Users\Thilina\Desktop\RDSales\RDSales Entities\obj\Debug\RDSales Entities.pdb
+C:\Users\Thilina\Desktop\Link\RDSales\RDSales Entities\bin\Debug\RDSales Entities.dll
+C:\Users\Thilina\Desktop\Link\RDSales\RDSales Entities\bin\Debug\RDSales Entities.pdb
+C:\Users\Thilina\Desktop\Link\RDSales\RDSales Entities\obj\Debug\RDSales Entities.csprojResolveAssemblyReference.cache
+C:\Users\Thilina\Desktop\Link\RDSales\RDSales Entities\obj\Debug\RDSales Entities.dll
+C:\Users\Thilina\Desktop\Link\RDSales\RDSales Entities\obj\Debug\RDSales Entities.pdb

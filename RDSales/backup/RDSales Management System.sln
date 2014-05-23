@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDSales Management System", "RDSales Management System\RDSales Management System.csproj", "{7EA4DCB8-676C-4E53-A392-811CA301CF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoEngine", "CryptoEngine\CryptoEngine.csproj", "{74FB46EE-3CEB-4DCE-A40C-DB44F4C8FFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDSales Entities", "RDSales Entities\RDSales Entities.csproj", "{4E5416E3-4DEE-470F-AAAD-0D8957B8859D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDSales Entity Handler", "RDSales Entity Handler\RDSales Entity Handler.csproj", "{AB5F7C2B-05BA-4D41-950F-03847DA530C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EA4DCB8-676C-4E53-A392-811CA301CF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA4DCB8-676C-4E53-A392-811CA301CF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA4DCB8-676C-4E53-A392-811CA301CF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA4DCB8-676C-4E53-A392-811CA301CF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FB46EE-3CEB-4DCE-A40C-DB44F4C8FFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FB46EE-3CEB-4DCE-A40C-DB44F4C8FFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FB46EE-3CEB-4DCE-A40C-DB44F4C8FFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FB46EE-3CEB-4DCE-A40C-DB44F4C8FFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5416E3-4DEE-470F-AAAD-0D8957B8859D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5416E3-4DEE-470F-AAAD-0D8957B8859D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5416E3-4DEE-470F-AAAD-0D8957B8859D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5416E3-4DEE-470F-AAAD-0D8957B8859D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5F7C2B-05BA-4D41-950F-03847DA530C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5F7C2B-05BA-4D41-950F-03847DA530C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5F7C2B-05BA-4D41-950F-03847DA530C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5F7C2B-05BA-4D41-950F-03847DA530C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

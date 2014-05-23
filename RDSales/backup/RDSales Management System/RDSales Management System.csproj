@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EA4DCB8-676C-4E53-A392-811CA301CF58}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDSales_Management_System</RootNamespace>
+    <AssemblyName>RDSales Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.51116.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccessDenied.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="AllIslandDailySales.aspx" />
+    <Content Include="AllIslandProdViseSales.aspx" />
+    <Content Include="AutoComplete.asmx" />
+    <Content Include="RDSales_Edit_Target.aspx" />
+    <Content Include="CreateUser.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DS_ByCustomer.aspx" />
+    <Content Include="DS_InProductRange.aspx" />
+    <Content Include="EditRDTargerts.aspx" />
+    <Content Include="GridView.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\accordian_header.png" />
+    <Content Include="images\body_bg.gif" />
+    <Content Include="images\btn.gif" />
+    <Content Include="images\bullet.gif" />
+    <Content Include="images\dolphin_bg-ON.gif" />
+    <Content Include="images\dolphin_bg-OVER.gif" />
+    <Content Include="images\dolphin_bg.gif" />
+    <Content Include="images\dolphin_left-ON.gif" />
+    <Content Include="images\dolphin_right-ON.gif" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\enter.png" />
+    <Content Include="images\footer_bg.gif" />
+    <Content Include="images\footer_left.gif" />
+    <Content Include="images\gallery.jpg" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\header_bg.jpg" />
+    <Content Include="images\header_c_bg.gif" />
+    <Content Include="images\header_pip.jpg" />
+    <Content Include="images\leaves2.png" />
+    <Content Include="images\link.ico" />
+    <Content Include="images\LinkBG.png" />
+    <Content Include="images\LinkBG_BW.png" />
+    <Content Include="images\login-box-backg.png" />
+    <Content Include="images\login-btn.png" />
+    <Content Include="images\login-btn1.png" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_gif.gif" />
+    <Content Include="images\magnify.png" />
+    <Content Include="images\navigation-bg.jpg" />
+    <Content Include="images\navigation-hover.png" />
+    <Content Include="images\navigation-separator.png" />
+    <Content Include="images\pic_1.jpg" />
+    <Content Include="images\pic_2.jpg" />
+    <Content Include="images\pic_3.jpg" />
+    <Content Include="images\pic_4.jpg" />
+    <Content Include="images\rdlogo.png" />
+    <Content Include="images\sales.png" />
+    <Content Include="images\theme_orange_mid.gif" />
+    <Content Include="login-box.css" />
+    <Content Include="main.css" />
+    <Content Include="RangeProdViseSales.aspx" />
+    <Content Include="RDSales_Data.aspx" />
+    <Content Include="RDTargets.aspx" />
+    <Content Include="RegionalDailySales.aspx" />
+    <Content Include="SalesReports.aspx" />
+    <Content Include="SessionTimedOut.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="RegionalDailySalesPerDate.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllIslandDailySales.aspx.cs">
+      <DependentUpon>AllIslandDailySales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllIslandDailySales.aspx.designer.cs">
+      <DependentUpon>AllIslandDailySales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllIslandProdViseSales.aspx.cs">
+      <DependentUpon>AllIslandProdViseSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllIslandProdViseSales.aspx.designer.cs">
+      <DependentUpon>AllIslandProdViseSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutoComplete.asmx.cs">
+      <DependentUpon>AutoComplete.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RDSales_Edit_Target.aspx.cs">
+      <DependentUpon>RDSales_Edit_Target.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDSales_Edit_Target.aspx.designer.cs">
+      <DependentUpon>RDSales_Edit_Target.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUser.aspx.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateUser.aspx.designer.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DS_ByCustomer.aspx.cs">
+      <DependentUpon>DS_ByCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DS_ByCustomer.aspx.designer.cs">
+      <DependentUpon>DS_ByCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DS_InProductRange.aspx.cs">
+      <DependentUpon>DS_InProductRange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DS_InProductRange.aspx.designer.cs">
+      <DependentUpon>DS_InProductRange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditRDTargerts.aspx.cs">
+      <DependentUpon>EditRDTargerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditRDTargerts.aspx.designer.cs">
+      <DependentUpon>EditRDTargerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeProdViseSales.aspx.cs">
+      <DependentUpon>RangeProdViseSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RangeProdViseSales.aspx.designer.cs">
+      <DependentUpon>RangeProdViseSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RDSales_Data.aspx.cs">
+      <DependentUpon>RDSales_Data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDSales_Data.aspx.designer.cs">
+      <DependentUpon>RDSales_Data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RDSales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RDSales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RDTargets.aspx.cs">
+      <DependentUpon>RDTargets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDTargets.aspx.designer.cs">
+      <DependentUpon>RDTargets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegionalDailySales.aspx.cs">
+      <DependentUpon>RegionalDailySales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegionalDailySales.aspx.designer.cs">
+      <DependentUpon>RegionalDailySales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReports.aspx.cs">
+      <DependentUpon>SalesReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesReports.aspx.designer.cs">
+      <DependentUpon>SalesReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionTimedOut.aspx.cs">
+      <DependentUpon>SessionTimedOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionTimedOut.aspx.designer.cs">
+      <DependentUpon>SessionTimedOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegionalDailySalesPerDate.aspx.cs">
+      <DependentUpon>RegionalDailySalesPerDate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegionalDailySalesPerDate.aspx.designer.cs">
+      <DependentUpon>RegionalDailySalesPerDate.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoEngine\CryptoEngine.csproj">
+      <Project>{74FB46EE-3CEB-4DCE-A40C-DB44F4C8FFF9}</Project>
+      <Name>CryptoEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDSales Entities\RDSales Entities.csproj">
+      <Project>{4E5416E3-4DEE-470F-AAAD-0D8957B8859D}</Project>
+      <Name>RDSales Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDSales Entity Handler\RDSales Entity Handler.csproj">
+      <Project>{AB5F7C2B-05BA-4D41-950F-03847DA530C9}</Project>
+      <Name>RDSales Entity Handler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\AllIslandDailySales.rdlc" />
+    <EmbeddedResource Include="Reports\RegionalDailySales.rdlc" />
+    <EmbeddedResource Include="Reports\RegionalDailySales_PerDay.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RDSales.xsc">
+      <DependentUpon>RDSales.xsd</DependentUpon>
+    </None>
+    <None Include="RDSales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RDSales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RDSales.xss">
+      <DependentUpon>RDSales.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1478</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="RDSales_Management_System.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    
+<link href="GridView.css" rel="stylesheet" type="text/css" />
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" href="images/link.ico" type="image/x-icon" />
+
+<title>Link Natural - System</title>
+
+    <script>
+        $(document).ready(function () {
+            $("button").button();
+        });
+  </script>
+  
+<style type="text/css" media="screen">
+
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+   
+</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     
+     <div id="base">
+    	<div id="banner">
+        <div><asp:Image ID="Image1" runat="server" ImageUrl="~/images/rdlogo.png" /></div>
+        
+    	    
+    	</div>
+    		
+            <div id="dolphincontainer">
+
+  <div id="nav_slim">
+		<ul>
+			<li><a href="Home.aspx">Home</a></li>
+            
+          
+
+            <li><a href="#" id="a1">Daily Sales</a>
+				<ul>
+					<li><a href="RDSales_Data.aspx">Enter Sales</a></li>
+					
+			   </ul>
+		 	</li>
+
+			  <li><a href="#" id="a2">Targets</a>
+				<ul>
+					<li><a href="RDSales_Edit_Target.aspx">RD Target</a></li>
+					
+			   </ul>
+		 	</li>
+          
+			<li><a href="#" id="active">Regional Reports</a>
+				<ul>
+					<li><a href="RegionalDailySales.aspx">Cumulative Report</a></li>
+					<li><a href="RegionalDailySalesPerDate.aspx">Daily Report</a></li>
+					
+			   </ul>
+		 	</li>
+		 	
+			<li><a href="#">Sales Reports</a>
+		        <ul>
+			        <li><a href="SalesReports.aspx">Regional Report</a></li>
+			        <li><a href="AllIslandDailySales.aspx">All Island Report</a></li>
+                    <li><a href="AllIslandProdViseSales.aspx">Product Vise Report</a></li>
+                    <li><a href="RangeProdViseSales.aspx">Periodic Sales Report</a></li>
+                   
+			    </ul>
+		  </li>
+
+           
+            <li><a href="#">Direct Sales</a>
+            
+            <ul>
+             <li><a href="DS_InProductRange.aspx">Direct Sales By Range </a></li>
+                    <li><a href="DS_ByCustomer.aspx">Direct Sales By Customer </a></li>
+            </ul>
+            </li>
+
+            <li><a href="#" id="a3">Registration</a>
+				<ul>
+					<li><a href="NewShop.aspx">New Outlet</a></li>
+                    <li><a href="ConfirmOutlets.aspx">Confirm Outlet</a></li>
+					
+			   </ul>
+		 	</li>
+
+			<li><a href="CreateUser.aspx">Create User</a></li>
+            <li><a href="Default.aspx">SignOut</a></li>
+		</ul>
+	</div>
+
+</div>
+    	
+		<div id="user-info">
+			<label>User :<span><asp:Label ID="lbl_user" runat="server"></asp:Label>
+                </span>
+		    </label>
+			&nbsp;<label>Date :<span><asp:Label ID="lbl_date" runat="server"></asp:Label>
+                </span>
+		    </label>
+			&nbsp;</div>    
+		<div id="main-content">
+			<fieldset>
+                <legend align="right">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                    </asp:ContentPlaceHolder>
+                </legend>
+				
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder> 
+			</fieldset>
+
+		</div>
+
+   <div id="footer">
+   			© 2011, Link Natural Product (Private) Ltd., CIC House 199 New Kew Road Colombo 2, Sri Lanka. All  Rights Reserved
+            <br />
+			RD Sales Management System - Version 1.000.000 
+   </div>
+   
+
+    </div>
+    </form>
+</body>
+</html>
